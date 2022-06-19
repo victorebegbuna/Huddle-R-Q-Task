@@ -1,0 +1,77 @@
+
+main{
+    display: grid;
+    grid-template-areas: 
+    'a b'
+    'c d'
+    'e f'
+    'g h'
+    
+    
+    
+    
+    
+    ;
+    
+}
+
+
+main div{
+    padding: 2cm;
+}
+
+
+.a{
+    grid-area: a;
+}
+
+.b{
+    grid-area: b;
+}
+.c{
+    grid-area: c;
+}
+
+.d{
+    grid-area: d;
+}
+
+.c, .d{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    background-position: 10px;
+    
+}
+
+.e{
+    grid-area: e;
+}
+
+.f{
+    grid-area: f;
+}
+
+.e, .f{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.g{
+    grid-area: g;
+}
+
+.h{
+    grid-area: h;
+}
+
+.i{
+    background-color: red;
+    border-radius: 30px;
+    text-align:center;
+    width: 10cm;
+    height: 5cm;
+}
+.j, .k, .l{
+    background-color: blue;
+    width: 400px;
+}
