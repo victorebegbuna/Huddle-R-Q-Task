@@ -1,3 +1,6 @@
+.{
+    box-sizing: border-box;
+}
 
 main{
     display: grid;
@@ -6,11 +9,6 @@ main{
     'c d'
     'e f'
     'g h'
-    
-    
-    
-    
-    
     ;
     
 }
@@ -19,7 +17,18 @@ main{
 main div{
     padding: 2cm;
 }
+.body{
+    margin: 0px;
+    
+}
 
+.button{
+    background-color: hsl(0, 100%, 74%) ;
+    width: 5cm;
+    height: 1cm;
+    border-color: hsl(0, 100%, 74%);
+    border-radius: 30px;
+}   
 
 .a{
     grid-area: a;
@@ -73,5 +82,13 @@ main div{
 }
 .j, .k, .l{
     background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
     width: 400px;
+}
+
+@media screen and (max-width: 1000px) {
+    .body{
+        flex-direction: column;
+    }
 }
